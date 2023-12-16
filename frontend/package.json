@@ -28,6 +28,7 @@
     "vite": "^5.0.9"
   },
   "scripts": {
+    "serve": "http-server dist -p 3000",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -35,6 +36,7 @@
     "dev:remote": "cross-env VITE_DEV_REMOTE=remote npm run dev"
   },
   "devDependencies": {
+    "http-server": "^13.0.1",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
     "eslint": "^8.53.0",
